@@ -40,7 +40,7 @@ app.get('/about', (req, res) => {
 
 app.get('/about/*', (req, res) => {
     res.render('404', {
-        errorcomment: "Oops this about page doesn't exist...."
+        errorcomment: "Oops this about page doesn't exist...., Addition error comment content"
     });
 })
 
